@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  body {
+    background-color: #141414;
+  }
+  
+  .profile_card {
+  
+    height: 80vh;
+    width: 20rem;
+    margin: 0 auto;
+    background-color: #1f1f1f;
+    margin-top: 6rem;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .img {
+      margin-top: 2rem ;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+  
+    align-self: center;
+  }
+  
+  .container {
+    margin: 0 auto;
+    width: 80%;
+  }
+  .btn {
+      text-transform: uppercase;
+    width: 100%;
+    border-radius: 10px;
+    padding: 0.4rem;
+    margin: 0.4rem 0;
+    text-align: center;
+    background-color: #333333;
+    transition: all 0.5s ease-in;
+  }
+  .btn:hover {
+      cursor: pointer;
+      background-color: #165877;
+    }
+  .btn a {
+    color: #8b8b8b;
+    text-decoration: none;
+  }
+  
+  .p_name{
+      font-size: 1.5rem;
+      color: #DCDCDC;
+      text-align: center;
+      margin-top: 0.3rem;
+  }
+  .location{
+      font-size: 0.9rem;
+      color: #7F9740;
+      text-align: center;
+    
+  }
+  .description{
+  
+      font-size: small;
+      color: #f0e6e6;
+      text-align: center;
+      margin: 1rem;
+  }
+  .fa-facebook{
+      padding-left:1rem ;
+  float: left;
+  }
+  
